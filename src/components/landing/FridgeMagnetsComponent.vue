@@ -68,7 +68,7 @@
             outlineClass="fill-gray-500 sm:group-hover:fill-dark"
           />
           <div class="mt-1 text-gray-500 sm:group-hover:text-dark text-xs hidden sm:block">
-            Refresh
+            Restart
           </div>
         </div>
         <div
