@@ -1,0 +1,65 @@
+@import './custom.css';
+
+@tailwind base;
+@layer base {
+  /* Extend preflight styles */
+  /* https://v2.tailwindcss.com/docs/preflight#extending-preflight */
+}
+
+@tailwind components;
+@layer components {
+  /* Include custom classes using @apply */
+  /* https://v2.tailwindcss.com/docs/extracting-components#extracting-component-classes-with-apply */
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .flex-center-col {
+    @apply flex items-center justify-center flex-col;
+  }
+
+  .heading-main {
+    @apply text-4xl lg:text-5xl uppercase font-bold;
+  }
+
+  .heading-page {
+    @apply text-4xl lg:text-5xl uppercase font-semibold;
+  }
+
+  .p-heading-page {
+    @apply px-4 sm:px-6 lg:px-8 py-10 lg:py-20;
+  }
+
+  .paragraph {
+    @apply text-base sm:text-lg md:text-xl;
+  }
+
+  .pb-paragraph {
+    @apply mb-8 lg:mb-12;
+  }
+
+  .pt-paragraph {
+    @apply mt-8 lg:mt-12;
+  }
+
+  .py-paragraph {
+    @apply my-8 lg:my-12;
+  }
+}
+
+@tailwind utilities;
+@layer utilities {
+  /* Include custom utilities */
+  /* https://v2.tailwindcss.com/docs/adding-new-utilities#using-css */
+
+  /* @variants responsive { */
+  /* Include custom classes that can be used responsively */
+  /* https://v2.tailwindcss.com/docs/adding-new-utilities#generating-responsive-variants */
+  /* } */
+
+  /* @variants hover, focus { */
+  /* Include state varients */
+  /* https://v2.tailwindcss.com/docs/adding-new-utilities#generating-state-variants */
+  /* } */
+}
