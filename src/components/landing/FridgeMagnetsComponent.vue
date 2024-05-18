@@ -97,10 +97,7 @@
       </div>
     </div>
   </div>
-  <!-- <button type="button" class="bg-stone-400 p-2 rounded text-white" @click="addShape">
-    add shape
-  </button>
-  <pre>{{ { activeShapes } }}</pre> -->
+  <!-- <pre>{{ { activeShapes } }}</pre> -->
   <!-- TODO  -->
 </template>
 
@@ -179,7 +176,7 @@ const setInitialBoard = () => {
       {
         id: generateGUID(),
         x: areaWidth * 0.32 * multiplier + positionerX,
-        y: areaHeight * (!xlScreen && !smScreen ? 0.13 : 0.14) + positionerY,
+        y: areaHeight * (!xlScreen && !smScreen ? 0.13 : 0.15) + positionerY,
         letter: 'comma',
         letterColor: colours.primary,
         zIndex: highestZIndex.value
