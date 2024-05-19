@@ -6,12 +6,12 @@ export const navItems: NavItem[] = [
     route: { name: 'home' }
   },
   {
-    title: 'About',
-    route: { name: 'home', hash: '#about' }
-  },
-  {
     title: 'Projects',
     route: { name: 'home', hash: '#projects' }
+  },
+  {
+    title: 'About',
+    route: { name: 'home', hash: '#about' }
   },
   {
     title: 'Contact',
