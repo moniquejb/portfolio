@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /
 
-Sitemap: https://www.moniqueblignaut.co.za/sitemap.xml
+Sitemap: https://moniqueblignaut.co.za/sitemap.xml
