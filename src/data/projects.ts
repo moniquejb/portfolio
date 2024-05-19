@@ -119,7 +119,7 @@ export const projects: ProjectTile[] = [
       This site was built using Vue 3 (composition API, script setup), Typescript and Tailwind CSS. I made all of the visual elements in Adobe Illustrator and set up two components to handle SVGs (one for general SVGs, another for the alphabet SVGs) to allow easy customisation of the SVG colours, sizes, hover states etc from within the project.
       
       I highly enjoyed working with Tailwind CSS and also used this project as an opportunity to test out the framework to potentially use for future projects at my current job.`,
-    links: [{ text: 'You are on this site!', url: 'https://www.moniqueblignaut.co.za/', disabled: true }]
+    links: [{ text: 'You are on this site!', url: 'https://moniqueblignaut.co.za/', disabled: true }]
   },
   {
     title: 'Illovo Careers Portal',
