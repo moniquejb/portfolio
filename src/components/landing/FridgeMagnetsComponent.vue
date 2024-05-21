@@ -1,6 +1,6 @@
 <template>
   <div class="h-full w-full">
-    <div class="relative h-full w-full rounded-3xl" ref="area">
+    <div class="relative h-full w-full rounded-3xl" ref="area" :key="`area-${areaKey}`">
       <div
         v-if="!firstDrag"
         class="z-50 opacity-0 absolute bottom-8 xs:bottom-12 sm:bottom-10 left-1/2 -translate-x-1/2 w-10 sm:w-14 xl:w-16 animate-fadeInOut"
@@ -97,8 +97,6 @@
       </div>
     </div>
   </div>
-  <!-- <pre>{{ { activeShapes } }}</pre> -->
-  <!-- TODO  -->
 </template>
 
 <script setup lang="ts">
@@ -125,6 +123,7 @@ let highestZIndex = ref(1)
 const firstDrag = ref(false)
 const windowHeight = ref(window.innerHeight)
 const windowWidth = ref(window.innerWidth)
+const areaKey = ref(1)
 
 onMounted(() => {
   setInitialBoard()
@@ -134,6 +133,7 @@ onMounted(() => {
 
 const setInitialBoard = () => {
   if (area.value) {
+    areaKey.value++
     highestZIndex.value = 1
     windowHeight.value = window.innerHeight
     windowWidth.value = window.innerWidth

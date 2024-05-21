@@ -1,10 +1,10 @@
 <template>
   <div class="bg-light flex flex-wrap">
     <div
-      class="w-full xl:w-4/6 min-h-[400px] xs:min-h-[450px] xl:min-h-[650px] h-[calc(60svh-theme('spacing.20'))] sm:h-[calc(75svh-theme('spacing.20'))] xl:h-[calc(100svh-theme('spacing.24'))] flex justify-center xl:items-center"
+      class="w-full xl:w-4/6 min-h-[400px] xs:min-h-[450px] xl:min-h-[650px] h-[calc(60vh-theme('spacing.20'))] sm:h-[calc(75svh-theme('spacing.20'))] xl:h-[calc(100svh-theme('spacing.24'))] flex justify-center xl:items-center"
     >
       <div
-        class="rounded-3xl min-h-[400px] xs:min-h-[450px] xl:min-h-[600px] h-[calc(60svh-theme('spacing.20'))] sm:h-[calc(75svh-theme('spacing.20'))] xl:h-[calc(90svh-theme('spacing.24'))] w-full pt-4 xl:pt-0 xl:-mt-3"
+        class="rounded-3xl min-h-[400px] xs:min-h-[450px] xl:min-h-[600px] h-[calc(60vh-theme('spacing.20'))] sm:h-[calc(75svh-theme('spacing.20'))] xl:h-[calc(90svh-theme('spacing.24'))] w-full pt-4 xl:pt-0 xl:-mt-3"
       >
         <div class="grid grid-cols-12 grid-rows-12 h-full">
           <div class="col-span-1"></div>
