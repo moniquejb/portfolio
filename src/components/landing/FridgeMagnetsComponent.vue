@@ -131,7 +131,7 @@ onMounted(() => {
   window.addEventListener('resize', () => {
     const currentWindowWidth = window.innerWidth
     const currentWindowHeight = window.innerHeight
-    if((currentWindowWidth != windowWidth.value) && (currentWindowHeight != windowHeight.value)) {
+    if((currentWindowWidth != windowWidth.value) || (currentWindowHeight != windowHeight.value)) {
       setInitialBoard()
     }
   })
