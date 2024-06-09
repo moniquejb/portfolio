@@ -128,7 +128,13 @@ const areaKey = ref(1)
 onMounted(() => {
   setInitialBoard()
 
-  window.addEventListener('resize', setInitialBoard)
+  window.addEventListener('resize', () => {
+    const currentWindowWidth = window.innerWidth
+    const currentWindowHeight = window.innerHeight
+    if((currentWindowWidth != windowWidth.value) && (currentWindowHeight != windowHeight.value)) {
+      setInitialBoard()
+    }
+  })
 })
 
 const setInitialBoard = () => {
