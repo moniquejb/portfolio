@@ -2,7 +2,7 @@
 
 # Monique Blignaut Online Portfolio
 
-https://www.moniqueblignaut.co.za/
+[Visit this site](https://moniqueblignaut.netlify.app/)
 
 This website, built in 2024, was born out of the desire to build something fun using technologies or processes I was not super familiar with at the time. I had a specific project in mind at work that I thought could benefit from using these new technologies, and in the end they were in fact used for that project. The main technologies tested were:
 1. [Tailwind](https://tailwindcss.com/): I had heard a lot about Tailwind so wanted to see what the hype was about.
