@@ -29,16 +29,15 @@
       <h1 class="heading-main text-center">Frontend Software Developer</h1>
 
       <h2 class="text-base xs:text-lg lg:text-2xl xl:text-xl 2xl:text-2xl text-center my-5 xl:my-4">
-        Vue.js &bull; Typescript &bull; Javascript<span class="inline xl:hidden"> &bull; </span
+        Vue.js &bull; Nuxt &bull; TS &bull; JS<span class="inline xl:hidden"> &bull; </span
         ><br class="hidden xl:block" />
         Pinia &bull; HTML &bull; CSS/ SCSS<span class="inline xl:hidden"> &bull; </span
         ><br class="hidden xl:block" />
-        Illustrator &bull; Photoshop
+        Figma &bull; Illustrator &bull; Photoshop
       </h2>
       <div class="text-center">
         <router-link :to="{ name: 'home', hash: '#projects' }">
-          <ButtonComponent>View projects</ButtonComponent></router-link
-        >
+          <ButtonComponent>View projects</ButtonComponent></router-link>
       </div>
     </div>
   </div>

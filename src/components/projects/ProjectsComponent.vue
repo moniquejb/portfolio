@@ -2,10 +2,20 @@
   <div class="mx-auto max-w-screen-2xl h-full p-heading-page">
     <h3 class="text-center heading-page">Projects</h3>
     <p class="py-paragraph paragraph">
-      A selection of projects I have worked on since 2022. Only public facing projects have been
-      included, although I have worked on many dashboards/ management systems as well. My level of
-      involvement is outlined in each project description.
+      A selection of public-facing projects I've worked on since 2022. These represent only a
+      portion of my work. I've also built internal dashboards, management systems, and have other
+      projects still in progress. My involvement is outlined in each project description.
+      <br /><br />
+      I'm currently developing a white-label, configurable checkout system for my employer. It is a
+      shared solution for our existing and future brands. I led the research and investigation phase, created the high-fidelity designs and prototype in Figma, and am now actively developing the frontend. The system is being built with
+      <span class="font-semibold text-secondary-darker">Nuxt</span>,
+      <span class="font-semibold text-secondary-darker">TypeScript</span>,
+      <span class="font-semibold text-secondary-darker">Tailwind</span>, and
+      <span class="font-semibold text-secondary-darker">PrimeVue</span> - a new stack I introduced.
+      The need for per-brand configuration and customisation has made the build technically challenging, but also one of
+      the most rewarding projects I've worked on.
     </p>
+
     <div class="mb-10 bg-slate-100 p-5 rounded-lg">
       <div class="font-bold self-end" :class="{ 'pb-5': showFilters }">
         <span

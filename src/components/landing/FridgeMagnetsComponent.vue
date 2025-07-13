@@ -105,7 +105,7 @@ import { colours } from '@/data/alphabet'
 import { type Shape as ShapeType } from '@/types/alphabet'
 import { generateGUID } from '@/utilities'
 import { getRandomColour, getRandomLetter } from '@/utilities/albhabet'
-import { ref, onBeforeUnmount, onMounted, computed } from 'vue'
+import { ref, onBeforeUnmount, onMounted } from 'vue'
 import SvgComponent from '@/components/misc/SvgComponent.vue'
 
 let shapes = ref<ShapeType[]>([])
@@ -117,9 +117,6 @@ let offsetX = 0
 let offsetY = 0
 const speedFactor = 1 // Adjust this value to control the speed
 let highestZIndex = ref(1)
-// const activeShapes = computed(() => {
-//   return shapes.value.filter((shape) => !shape.isRemoved).length
-// })
 const firstDrag = ref(false)
 const windowHeight = ref(window.innerHeight)
 const windowWidth = ref(window.innerWidth)
@@ -315,14 +312,6 @@ const handleDrag = (e: MouseEvent | TouchEvent) => {
       clientX <= scrapRect.right &&
       clientY >= scrapRect.top &&
       clientY <= scrapRect.bottom
-
-    // Check if the new position is within the boundaries of the add area
-    const addRect = add.value.getBoundingClientRect()
-    const inAdd =
-      clientX >= addRect.left &&
-      clientX <= addRect.right &&
-      clientY >= addRect.top &&
-      clientY <= addRect.bottom
 
     if (inScrap) {
       // If the shape is within scrap area, mark it as removed
