@@ -7,7 +7,7 @@
 This website, built in 2024, was born out of the desire to build something fun using technologies or processes I was not super familiar with at the time. I had a specific project in mind at work that I thought could benefit from using these new technologies, and in the end they were in fact used for that project. The main technologies tested were:
 1. [Tailwind](https://tailwindcss.com/): I had heard a lot about Tailwind so wanted to see what the hype was about.
 2. [Vite](https://vitejs.dev/): For some time I had been aware that Vite was the new industry standard on new Vue 3 projects, so I wanted to become familiar with it before pushing to change for Vite over Webpack in new Vue 3 projects.
-3. [ChatGPT](https://chatgpt.com/): I wanted to leverage ChatGPT for speeding up the process of writing the logic for the main feature of the site, which are ther interactive "fridge magnets" on the landing page. 
+3. [ChatGPT](https://chatgpt.com/): I wanted to leverage ChatGPT for speeding up the process of writing the logic for the main feature of the site, which are the interactive "fridge magnets" on the landing page. 
 
 ## Technologies
 * Vue.js (composition API, script setup)
